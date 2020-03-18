@@ -39,14 +39,14 @@ io.use(middleware)
 // Make API requests
 const Heroku = require('heroku-client')
 const heroku = new Heroku({ token:process.env.API_TOKEN})// DELETE requests
-
+  
 // Daily Server Restart time
 // UTC 13:00:00 = 9AM EST
-let restartHour = 13//13
+let restartHour = 11//13 original
 let restartMinute = 0//0
 let restartSecond = 5
 // restart warning time
-let restartWarningHour = 12//12
+let restartWarningHour = 10//12 original
 let restartWarningMinute = 50//50
 let restartWarningSecond = 2
 
