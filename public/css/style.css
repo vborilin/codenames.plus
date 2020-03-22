@@ -57,6 +57,19 @@ Grey: #D6D2C9
   }
 }
 
+#donate {
+  position: absolute;
+  top: 0; 
+  display: block;
+  width: 100vw;
+  text-align: center;
+  font-size: 14px;
+  padding: 1px;
+  color: #323032;
+  background: #11779F;
+  box-sizing: border-box;
+  font-weight: bold;
+}
 
 #app {
   position: relative;
@@ -74,6 +87,7 @@ Grey: #D6D2C9
 
 body {
   margin: 0;
+  padding-top: 34px;
   background: #323032;
   color: #323032;
   font-family: 'Changa', sans-serif;
