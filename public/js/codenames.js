@@ -398,3 +398,10 @@ function updatePlayerlist(players){
     }
   }
 }
+
+// Client Side UI Elements
+
+// Hide donate banner
+document.getElementById('donate-hide').onclick = () => { 
+  document.getElementById('donate').className = 'hide'
+}

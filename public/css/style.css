@@ -71,6 +71,28 @@ Grey: #D6D2C9
   font-weight: bold;
 }
 
+#donate.hide {
+  display: none;
+}
+
+#donate-link {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+#donate-link:hover {
+  color: #bbbbbb;
+  text-decoration: underline;
+}
+
+#donate-hide {
+  color: #1b1b1b;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
 #app {
   position: relative;
   display: block;
@@ -87,7 +109,6 @@ Grey: #D6D2C9
 
 body {
   margin: 0;
-  padding-top: 34px;
   background: #323032;
   color: #323032;
   font-family: 'Changa', sans-serif;
