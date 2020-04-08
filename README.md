@@ -1,7 +1,7 @@
 # codenames.plus
 nodejs server for multiplayer codenames webapp game
 
-UPDATE (04/07/2020): Wow I did not expect this app to get this much traction, especially since I put this up around two years ago and kind of let it do its thing. With the recent popularity, I've been seeing around 500 concurrent players on weekday nights and upwards of 3k on weekend nights. Because of that, the servers are struggling  bit on weekends and you may experience timeouts / freezing. I wasn't able to optimize the app with that kind of load in mind 2 years ago. I'm really sorry about these issues. 
+UPDATE (04/07/2020): Wow I did not expect this app to get this much traction, especially since I put this up around two years ago and kind of let it do its thing. With the recent popularity, I've been seeing around 500 concurrent players on weeknights and upwards of 3k on weekend nights. Because of that, the servers are struggling  bit on weekends and you may experience timeouts / freezing. I wasn't able to optimize the app with that kind of load in mind 2 years ago. I'm really sorry about these issues. 
 
 On top of this, I didn't expect anyone to contribute / ask to work on the app here on github. If the repo isn't set up properly / optimized, I'm sorry about that. Again, didn't expect this spotlight. 
 
@@ -11,4 +11,4 @@ Planned features off the top of my head: Language packs (UI solution for languag
 
 Thank you if you're reading this and have enjoyed the project. I hope you are patient with me and are understanding of the situation I'm in with the newfound spotlight on this project. 
 
-**Also, if anyone has experience with socket+express in node and notices places in my code where I can optimize for memory usage, please get in contact! (joseph.a.marchesi@gmail.com)**
+**Also, if anyone has experience with socket+express in node and notice places in my code where I can optimize for memory usage, please get in contact! (joseph.a.marchesi@gmail.com)**
