@@ -59,18 +59,20 @@
   <div id="overlay"> </div>
   <div id="join-game">
     <h1>Codenames.plus</h1>
-    <div class='join-input'>
-      <label for='join-nickname'>Nickname: </label>
-      <input id='join-nickname' type='text' maxlength="10"></input>
-    </div>
-    <div class='join-input'>
-      <label for='join-room'>Room: </label>
-      <input id='join-room' type='text' maxlength="10"></input>
-    </div>
-    <div class='join-input'>
-      <label for='join-password'>Password: </label>
-      <input id='join-password' type='password' maxlength="20"></input>
-    </div>
+    <form>
+      <div class='join-input'>
+        <label for='join-nickname'>Nickname: </label>
+        <input id='join-nickname' type='text' maxlength="10"></input>
+      </div>
+      <div class='join-input'>
+        <label for='join-room'>Room: </label>
+        <input id='join-room' type='text' maxlength="10"></input>
+      </div>
+      <div class='join-input'>
+        <label for='join-password'>Password: </label>
+        <input id='join-password' type='password' maxlength="20"></input>
+      </div>
+    </form>
     <p id='error-message'> </p>
     <button id='join-enter'>Enter Room</button>
     <button id='join-create'>Create Room</button>
