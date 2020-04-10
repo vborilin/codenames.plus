@@ -57,6 +57,15 @@ Grey: #D6D2C9
   }
 }
 
+#server-note {
+  position: absolute;
+  color: #bbbbbb;
+  text-align: center;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 5px;
+}
+
 #donate {
   position: absolute;
   top: 0; 
